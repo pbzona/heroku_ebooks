@@ -1,2 +1,2 @@
-*.pyc
-.git
+local_settings.py
+__pycache__/
