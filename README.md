@@ -1,6 +1,6 @@
-# Heroku_ebooks
+# phil_ebooks
 
-This is a basic Python port of [@harrisj's](https://twitter.com/harrisj) [iron_ebooks](https://github.com/harrisj/iron_ebooks/) Ruby script. Using Heroku's scheduler, you can post to an _ebooks Twitter account based on the corpus of an existing Twitter at pseudorandom intervals. Currently, it is the magic behind [@adriennelaf_ebx](http://www.twitter.com/adriennelaf_ebx) and [@stevebuttry_ebx](http://www.twitter.com/stevebuttry_ebx).
+This is a port of Tom Meagher's [heroku_ebooks](https://github.com/tommeagher/heroku_ebooks) project to Python 3. Heroku now deploys a Python 3.6 environment upon creating a new app, and I had a bad time trying to get the original script to work. This fork should solve the problem, and I might even add a few features of my own someday.
 
 ## Setup
 
@@ -56,5 +56,8 @@ If you want to avoid hitting the Twitter API and instead want to use a static te
 
 
 ## Credit
+
+First, I should note that this is a fork of Tom Meagher's [heroku_ebooks](https://github.com/tommeagher/heroku_ebooks). He did 99% of the work, and the project is cool because he made it cool. Rest of the credits from Tom himself...
+
 As I said, this is based almost entirely on [@harrisj's](https://twitter.com/harrisj) [iron_ebooks](https://github.com/harrisj/iron_ebooks/). He created it in Ruby, and I wanted to port it to Python. All the credit goes to him.
 As a result, all of the blame for clunky implementation in Python fall on me. If you see ways to improve the code, please fork it and send a pull request, or file an issue for me and I'll address it.
